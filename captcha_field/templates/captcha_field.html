@@ -1,0 +1,13 @@
+<input type="hidden" id="recaptchaV3" name="g-recaptcha-response">
+
+<script src="https://www.google.com/recaptcha/api.js?render={{ widget.attrs.google_captcha_key }}"></script>
+
+<script>
+
+    grecaptcha.ready(function() {
+        grecaptcha.execute('{{ widget.attrs.google_captcha_key }}', {action: 'homepage'}).then(function(token) {
+            $('#recaptchaV3').val(token);
+        });
+    });
+
+</script>
