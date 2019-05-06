@@ -1,3 +1,0 @@
-"""
-Your example functionality here
-"""
