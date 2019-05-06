@@ -1,13 +1,15 @@
-# Django Captcha field (In Progress)
+# Django google Captcha V3 field
 
 Google Captcha V3 integrated form field
 
 # Installation
 
 PIP:
+
 `pip install django-captcha3`
 
 GIT:
+
 `git clone https://github.com/sitmena/django-captcha-field`
 
 # Usage
