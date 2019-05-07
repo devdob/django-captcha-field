@@ -10,7 +10,7 @@ PIP:
 
 GIT:
 
-`git clone https://github.com/sitmena/django-captcha-field`
+`pip install git+https://github.com/sitmena/django-captcha-field@v1.0`
 
 # Usage
 

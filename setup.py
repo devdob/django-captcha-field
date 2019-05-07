@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="my-package-your-username",
-    version="0.0.1",
+    name="django-captcha3",
+    version="1.0",
     author="Abdallah Nassif",
     author_email="a.nassif@sit-mena.com",
-    description="A small example package",
+    description="Django form field google captcha extension",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/sitmena/sitech-django-models",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
