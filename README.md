@@ -10,7 +10,7 @@ GIT:
 
 # Usage
 
-Add the package `captcha_field` to your installed apps. Then you can simply add
+Add the package `django-captcha3` to your installed apps. Then you can simply add
 to your form like so,
 
 ```python
