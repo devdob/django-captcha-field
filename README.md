@@ -14,7 +14,7 @@ Add the package `django-captcha3` to your installed apps. Then you can simply ad
 to your form like so,
 
 ```python
-from django-captcha3 import CaptchaField
+from captcha_field import CaptchaField
 
 
 class MyForm(forms.Form):
