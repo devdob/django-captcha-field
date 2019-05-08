@@ -19,7 +19,7 @@ class CaptchaField(Field):
         """
         super().__init__()  # Call Field init first
         self.widget.input_type = 'hidden'
-        self.widget.template_name = 'captcha_field.html'
+        self.widget.template_name = 'captcha-field.html'
         if 'widget' in kwargs and kwargs['widget'].attrs:
             self.widget.attrs['google_captcha_key'] = kwargs['widget'].attrs['google_captcha_key']
             self.widget.attrs['google_captcha_secret'] = kwargs['widget'].attrs['google_captcha_secret']
